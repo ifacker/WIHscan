@@ -8,7 +8,7 @@ import (
 
 func TestScan(t *testing.T) {
 	global.RulePath = "../config/wih_rules.yaml"
-	urljs := "https://health.house.oirlife.com:9002/static/js/chunk-vendors.15e738ce.js"
+	urljs := ""
 	result := Scan(urljs)
 	fmt.Println(result)
 }
